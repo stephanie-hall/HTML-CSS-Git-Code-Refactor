@@ -15,24 +15,23 @@ body {
     color: #ffffff;
 }
 
-.header h1 {
+.horiseon {
     display: inline-block;
     font-size: 48px;
+    color: #ffffff;
+    text-align: left;
 }
 
-.header h1 #seo {
-    color: #d9dcd6;
-}
-
-.header div {
+.header ul {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    list-style-type: none;
 }
 
-.header div ul li {
+.header ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -55,6 +54,16 @@ p {
     background-position: center;
 }
 
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
 .content {
     width: 75%;
     display: inline-block;
@@ -72,23 +81,23 @@ p {
     background-color: #2589bd;
 }
 
-#benefit-lead, #benefit-brand, #benefit-cost {
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-#benefit-lead h3, #benefit-brand h3, #benefit-cost h3 {
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-#benefit-lead img, #benefit-brand img, #benefit-cost img {
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-#search-engine-optimization, #online-reputation-management, #social-media-marketing {
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -97,11 +106,11 @@ p {
     color: #ffffff;
 }
 
-#search-engine-optimization img, #online-reputation-management img, #social-media-marketing img  {
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
-#search-engine-optimization h2, #online-reputation-management h2, #social-media-marketing h2 {
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2  {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -111,8 +120,5 @@ p {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-.footer h2 {
     font-size: 20px;
 }
